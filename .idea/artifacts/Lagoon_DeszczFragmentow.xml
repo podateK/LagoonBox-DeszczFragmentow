@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Lagoon-DeszczFragmentow">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lagoon_DeszczFragmentow</output-path>
+    <root id="archive" name="Lagoon-DeszczFragmentow.jar">
+      <element id="module-output" name="LagoonBox-DeszczFragmentow" />
+    </root>
+  </artifact>
+</component>

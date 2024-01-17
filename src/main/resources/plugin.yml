@@ -1,0 +1,9 @@
+name: LagoonBox-DeszczFragmentow
+version: '${project.version}'
+main: pl.podateK.DeszczFragmentow.Main
+api-version: '1.18'
+commands:
+  deszcz:
+    permission: lagoonbox.deszcz.command
+    aliases: [deszczfragmentow, rain]
+    usage: /<command>

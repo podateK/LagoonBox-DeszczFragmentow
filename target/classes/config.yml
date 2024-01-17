@@ -1,0 +1,9 @@
+
+Szansa-na-Drop: 0.25
+Deszcz-Fragmentow-Wlaczony: false
+
+bossbar:
+  nazwa: "&c&nNa Serverze Trwa Aktualnie Deszcz Fragmentów"
+  kolor: BLUE
+  typ: SEGMENTED_10
+odlamek:
