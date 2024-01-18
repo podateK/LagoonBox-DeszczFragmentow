@@ -46,8 +46,13 @@ public class DeszczCommand implements CommandExecutor {
             }
             if (plugin.getConfig().get("odlamek") instanceof ItemStack) {
                 ItemStack odlamek = (ItemStack) plugin.getConfig().get("odlamek");
-                cel.getInventory().addItem(odlamek);
-                sender.sendMessage("§aDano odlamek graczowi " + cel.getName());
+                int amount = Integer.parseInt(args[2]);
+                ItemStack[] items = new ItemStack[amount];
+                for (int i = 0; i < amount; i++) {
+                    items[i] = odlamek;
+                }
+                cel.getInventory().addItem(items);
+                sender.sendMessage("§aDano " + amount + " odlamkow graczowi " + cel.getName());
                 return true;
             } else {
                 sender.sendMessage("§cMusisz ustawic odlamek!");
